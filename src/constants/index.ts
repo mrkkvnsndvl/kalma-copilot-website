@@ -145,64 +145,45 @@ export const faqItems = [
     id: "faq-1",
     question: "What platforms does Kalma Copilot support?",
     answer:
-      "Kalma Copilot seamlessly integrates with Google Meet, Zoom, and Microsoft Teams for real-time interview assistance. Watch our tutorial videos for a step-by-step guide.",
+      "Kalma Copilot currently supports seamless integration with Google Meet, Zoom, and Microsoft Teams for real-time interview assistance. For a step-by-step visual guide, please refer to our interactive demo.",
   },
   {
     id: "faq-2",
     question: "Do I need to create an account to use Kalma Copilot?",
     answer:
-      "Currently, Kalma Copilot operates as a browser extension. You do not need a separate account, but you will need to provide your own API keys for Deepgram and OpenRouter to enable all features. Our tutorial videos explain this process clearly.",
+      "No, you do not need a separate Kalma Copilot account. It operates as a browser extension. However, you will need to provide your own API keys for Deepgram and OpenRouter to enable all features. Clear instructions on obtaining these keys are provided.",
   },
   {
     id: "faq-3",
     question: "Is Kalma Copilot really free to use?",
     answer:
-      "Yes, Kalma Copilot itself is offered for free. However, to utilize the live transcription and AI-powered features, you will need to provide your own API keys from Deepgram (for audio transcription) and OpenRouter (for AI processing). See our tutorial on setting up your API keys for details.",
+      "Yes, Kalma Copilot itself is free to use. However, the live transcription and AI-powered features rely on third-party services. You will need to provide your own API keys for Deepgram (for audio transcription) and OpenRouter (for AI processing).",
   },
   {
     id: "faq-4",
     question: "How do I get API keys for Deepgram and OpenRouter?",
     answer:
-      "Our video tutorials walk you through the process of signing up for accounts on the Deepgram and OpenRouter platforms and generating your API keys. Refer to the 'Setting Up Your API Keys' tutorial.",
+      "Our interactive demo includes a comprehensive walkthrough of the process for signing up for accounts on the Deepgram and OpenRouter platforms and generating your API keys.",
   },
   {
     id: "faq-5",
     question: "What kind of AI assistance does Kalma Copilot provide?",
     answer:
-      "Kalma Copilot can offer real-time insights, suggest potential follow-up questions, and analyze the sentiment of the interview conversation, helping you respond more effectively. Watch our feature highlight videos to see this in action.",
+      "Kalma Copilot offers real-time insights, suggests relevant follow-up questions, and analyzes the sentiment of the interview conversation to help you respond more effectively.",
   },
   {
     id: "faq-6",
-    question: "Is my interview data secure when using Kalma Copilot?",
-    answer:
-      "Kalma Copilot is designed with privacy in mind. Your interview audio is processed by Deepgram for transcription, and the text is analyzed by AI through OpenRouter, using your own API keys. Our security overview video explains how we prioritize your privacy.",
-  },
-  {
-    id: "faq-7",
-    question: "Can I review the interview transcript after the call?",
-    answer:
-      "Yes, Kalma Copilot allows you to access and review the complete transcript of your interview after it has concluded, helping you analyze your performance. Our 'Post-Interview Review' tutorial shows you how.",
-  },
-  {
-    id: "faq-8",
     question:
       "Can I customize Kalma Copilot for different types of interviews?",
     answer:
-      "Yes, you can create customizable interview profiles within Kalma Copilot, allowing you to provide context about the job role and company for more relevant AI assistance. See the 'Creating Interview Profiles' video for a demonstration.",
+      "Yes, Kalma Copilot allows you to create customizable interview profiles. This feature enables you to provide context about the specific job role and company, leading to more relevant and tailored AI assistance.",
   },
   {
-    id: "faq-9",
-    question:
-      "What if I encounter issues or have questions about Kalma Copilot?",
-    answer:
-      "Please refer to our tutorial videos for comprehensive guides on using Kalma Copilot. If you still need assistance, you can contact our support team through the channels mentioned in the 'Getting Help' video.",
-  },
-  {
-    id: "faq-10",
+    id: "faq-7",
     question:
       "Will Kalma Copilot be available on other browsers or platforms in the future?",
     answer:
-      "Currently, Kalma Copilot is designed as a browser extension for Chrome, Edge, and potentially other Chromium-based browsers. Stay tuned to our tutorial channel for updates on future platform support.",
+      "Currently, Kalma Copilot is designed as a browser extension primarily for Chrome and Edge (and potentially other Chromium-based browsers). We are continuously exploring options for future platform support. Please stay updated on our website or announcements for any news.",
   },
 ];
 

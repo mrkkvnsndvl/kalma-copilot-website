@@ -15,8 +15,8 @@ const FaqsSection = () => {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-muted-foreground text-balance">
-            Find answers to common questions about Kalma Copilot and learn how
-            to use its features through our helpful video tutorials.
+            Find answers to common questions about Kalma Copilot and understand
+            how it can assist you during interviews.
           </p>
         </div>
 
@@ -43,12 +43,12 @@ const FaqsSection = () => {
           </Accordion>
 
           <p className="px-8 mt-6 text-muted-foreground">
-            Still have questions? Watch our{" "}
+            Still have questions? Explore our{" "}
             <a
-              href="#tutorials"
+              href="#demo"
               className="font-medium text-primary hover:underline"
             >
-              tutorial videos&nbsp;
+              interactive demo&nbsp;
             </a>
             for more detailed guidance.
           </p>
