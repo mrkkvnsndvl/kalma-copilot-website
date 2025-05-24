@@ -1,54 +1,39 @@
-# React + TypeScript + Vite
+# Kalma Copilot Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/built%20with-React-61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/built%20with-TypeScript-007ACC)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/built%20with-Vite-646CFF)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/built%20with-Tailwind_CSS-38B2AC)](https://tailwindcss.com/)
+[![Shadcn UI](https://img.shields.io/badge/built%20with-Shadcn_UI-000000?style=flat&logo=shadcn-ui)](https://ui.shadcn.com/)
 
-Currently, two official plugins are available:
+This repository contains the source code for the Kalma Copilot website, a platform dedicated to showcasing and providing information about the Kalma Copilot Chrome extension. Kalma Copilot is designed to provide real-time AI-powered assistance during online job interviews.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+* **Informative Landing Pages:** Provides detailed information about the Kalma Copilot extension, its features, and benefits.
+* **Demo Section:** Includes an embedded demo showcasing how to set up and use the Kalma Copilot extension.
+* **Features Highlight:** Clearly presents the key functionalities of the Kalma Copilot extension.
+* **Testimonials:** Features real quotes from users who have experienced the benefits of Kalma Copilot.
+* **Pricing Information:** Explains the free access model and the requirement for users to provide their own API keys.
+* **FAQ Section:** Answers common questions about Kalma Copilot.
+* **Download Link:** Provides a direct link to download the Kalma Copilot Chrome extension.
+* **Modern UI:** Built with React, TypeScript, Tailwind CSS, and Shadcn UI for a responsive and visually appealing user experience.
+* **Theme Support:** Includes basic theme support (light/dark/system).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Technologies Used
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+* [React](https://react.dev/) - JavaScript library for building user interfaces
+* [TypeScript](https://www.typescriptlang.org/) - Superset of JavaScript that adds static typing
+* [Vite](https://vitejs.dev/) - Next-generation frontend tooling
+* [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+* [Shadcn UI](https://ui.shadcn.com/) - Reusable UI primitives built using Radix UI and Tailwind CSS
+* [Lucide React](https://lucide.dev/) - Beautifully simple vector icons
+* [Framer Motion](https://www.framer.com/motion/) - Animation library for React
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Contributing
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Author
+
+[mrkkvnsndvl](https://github.com/mrkkvnsndvl)
