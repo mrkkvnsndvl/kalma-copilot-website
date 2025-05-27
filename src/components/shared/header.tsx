@@ -48,7 +48,7 @@ const Header = () => {
                   alt="Kalma Copilot logo"
                   className="w-5 h-5"
                 />
-                <span className="font-medium">Kalma Colipot</span>
+                <span className="font-medium">Kalma Copilot</span>
               </a>
               <button
                 onClick={() => setMenuState(!menuState)}
